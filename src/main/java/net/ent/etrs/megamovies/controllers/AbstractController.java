@@ -6,16 +6,17 @@ import javafx.scene.control.Alert;
 import net.ent.etrs.megamovies.commons.utils.jxf.AlerteUtils;
 import net.ent.etrs.megamovies.model.facades.FacadeMetierFactory;
 import net.ent.etrs.megamovies.model.facades.FacadeMetierFilm;
+import net.ent.etrs.megamovies.model.facades.FacadeMetierRealisateur;
 import net.ent.etrs.megamovies.view.references.ConstanteView;
 
 public abstract class AbstractController {
     protected static FacadeMetierFilm facadeMetierFilm;
-//    protected static FacadeMetierMarque facadeMetierMarque;
+    protected static FacadeMetierRealisateur facadeMetierRealisateur;
 
     public AbstractController() {
         try {
             facadeMetierFilm = FacadeMetierFactory.fabriquerFacadeMetier();
-//            facadeMetierMarque = FacadeMetierFactory.fabriquerFacadeMetierMarque();
+            facadeMetierRealisateur = FacadeMetierFactory.fabriquerFacadeMetierRealisateur();
 //            facadeMetierMarque.initialiser();
 //            facadeMetierVoiture.initialiser();
         } catch (Exception e) {
