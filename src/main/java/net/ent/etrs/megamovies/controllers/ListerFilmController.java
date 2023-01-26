@@ -10,8 +10,8 @@ import javafx.scene.control.*;
 import net.ent.etrs.megamovies.commons.utils.jxf.AlerteUtils;
 import net.ent.etrs.megamovies.commons.utils.jxf.FxmlUtils;
 import net.ent.etrs.megamovies.model.entities.Film;
+import net.ent.etrs.megamovies.model.entities.references.Genre;
 import net.ent.etrs.megamovies.model.exceptions.BusinessException;
-import net.ent.etrs.megamovies.model.references.Genre;
 import net.ent.etrs.megamovies.view.references.Screens;
 
 import java.time.LocalDate;

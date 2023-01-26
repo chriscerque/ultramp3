@@ -4,6 +4,7 @@ import net.ent.etrs.megamovies.model.dao.DaoFilm;
 import net.ent.etrs.megamovies.model.dao.impl.DaoException;
 import net.ent.etrs.megamovies.model.dao.impl.DaoFactory;
 import net.ent.etrs.megamovies.model.entities.Film;
+import net.ent.etrs.megamovies.model.entities.Realisateur;
 import net.ent.etrs.megamovies.model.exceptions.BusinessException;
 import org.apache.commons.collections4.IterableUtils;
 
@@ -26,6 +27,11 @@ public class FacadeMetierFilmImpl implements FacadeMetierFilm {
         } catch (DaoException e) {
             throw new BusinessException(e.getMessage(), e);
         }
+    }
+
+    @Override
+    public Set<Film> findByRealisateur(Realisateur realisateur) throws BusinessException {
+        return null;
     }
 
     @Override

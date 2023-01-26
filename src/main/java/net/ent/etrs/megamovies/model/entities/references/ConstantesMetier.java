@@ -1,4 +1,4 @@
-package net.ent.etrs.megamovies.model.references;
+package net.ent.etrs.megamovies.model.entities.references;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
@@ -9,5 +9,5 @@ public class ConstantesMetier {
 
     public static final String MSG_REALISATEUR_NOM_VIDE = "Le nom doit être renseigné.";
     public static final String MSG_REALISATEUR_NOM_TAILLE = "Le nom doit contenir au minimum 3 caractères.";
-    
+
 }

@@ -2,7 +2,7 @@ package net.ent.etrs.megamovies.model.entities;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-import net.ent.etrs.megamovies.model.references.Genre;
+import net.ent.etrs.megamovies.model.entities.references.Genre;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -25,7 +25,7 @@ public class Film extends AbstractEntity {
     @Enumerated(EnumType.STRING)
     @Getter
     @Setter
-    @Column(name = "GENRE", nullable = false)
+    @Column(name = "GENRE", nullable = false, length = 50)
     Genre genre;
     @Getter
     @Setter
@@ -33,10 +33,5 @@ public class Film extends AbstractEntity {
     @JoinColumn(name = "REALISATEUR_ID", nullable = false, foreignKey = @ForeignKey(name = "FILM__REALISATEUR_FK"))
     Realisateur realisateur;
 
-    public Film(String titre, LocalDate dateSortie) {
-        super();
-        this.titre = titre;
-        this.dateSortie = dateSortie;
-    }
 
 }

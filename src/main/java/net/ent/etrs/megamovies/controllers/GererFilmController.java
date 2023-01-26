@@ -9,8 +9,8 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import net.ent.etrs.megamovies.model.entities.Film;
 import net.ent.etrs.megamovies.model.entities.Realisateur;
+import net.ent.etrs.megamovies.model.entities.references.Genre;
 import net.ent.etrs.megamovies.model.exceptions.BusinessException;
-import net.ent.etrs.megamovies.model.references.Genre;
 import net.ent.etrs.megamovies.view.converters.RealisateurConverter;
 
 import java.util.Arrays;
