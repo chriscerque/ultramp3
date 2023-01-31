@@ -1,8 +1,8 @@
-package net.ent.etrs.megamovies.model.facades;
+package net.ent.etrs.ultramp3.model.facades;
 
-import net.ent.etrs.megamovies.model.entities.Film;
-import net.ent.etrs.megamovies.model.entities.Realisateur;
-import net.ent.etrs.megamovies.model.exceptions.BusinessException;
+import net.ent.etrs.ultramp3.model.entities.Film;
+import net.ent.etrs.ultramp3.model.entities.Realisateur;
+import net.ent.etrs.ultramp3.model.exceptions.BusinessException;
 
 import java.util.Set;
 

@@ -5,14 +5,14 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox fx:id="laBarre" prefHeight="22.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.ent.etrs.megamovies.controllers.BarreMenuController">
+<VBox fx:id="laBarre" prefHeight="22.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.ent.etrs.ultramp3.controllers.BarreMenuController">
     <children>
         <MenuBar>
             <menus>
                 <Menu mnemonicParsing="false" text="Movies">
                     <items>
-                        <MenuItem fx:id="listerFilms" mnemonicParsing="false" onAction="#listerFilms" text="Lister les films" />
-                        <MenuItem fx:id="ajouterFilm" mnemonicParsing="false" onAction="#ajouterFilm" text="Ajouter un film" />
+                        <MenuItem fx:id="listerMusiques" mnemonicParsing="false" onAction="#listerMusiques" text="Lister les films" />
+                        <MenuItem fx:id="ajouterMusique" mnemonicParsing="false" onAction="#ajouterMusique" text="Ajouter un musique" />
                         <MenuItem fx:id="quitter" mnemonicParsing="false" onAction="#quitter" text="Quitter" />
                     </items>
                 </Menu>

@@ -11,7 +11,7 @@
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
 
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/mega_movies"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/ultra_mp"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <property name="javax.persistence.jdbc.password" value="postgres"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
