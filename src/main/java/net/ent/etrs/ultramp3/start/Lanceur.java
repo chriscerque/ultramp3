@@ -34,7 +34,7 @@ public class Lanceur extends Application {
     //Le point d'entrée de toutes les applications JavaFX
     public void start(Stage primaryStage) {
         try {
-            primaryStage.setTitle("Mon garage");
+            primaryStage.setTitle("Ultra MP3");
 
 
 //            FXMLLoader loader = new FXMLLoader(getClass().getResource(Screens.SCREEN_ACCUEIL));

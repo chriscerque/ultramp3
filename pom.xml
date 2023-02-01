@@ -152,7 +152,7 @@
                     <execution>
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>net.ent.etrs.ultramp3.start.Lanceur</mainClass>
+                            <mainClass>net.ent.etrs.ultramp3.start.LanceurMp3</mainClass>
                         </configuration>
                     </execution>
                 </executions>
